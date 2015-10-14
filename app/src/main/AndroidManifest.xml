@@ -16,6 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" >
+            <intent-filter>
+                <action android:name="com.example.moviles.alertamovil.SignupActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

@@ -16,14 +16,6 @@
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
         android:visibility="gone" />
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:id="@+id/imageView"
-        android:src="@mipmap/logo"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="30dp" />
-
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -35,6 +27,14 @@
             android:id="@+id/email_login_form"
             android:layout_weight="0.5"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView"
+                android:src="@mipmap/logo"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp" />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/nombreWrapper"
@@ -98,21 +98,21 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
-                android:id="@+id/email_login_button"
-                android:layout_marginTop="16dp"
-                android:onClick="onButtonClick" />
+                android:text="Sign Up"
+                android:id="@+id/button_signup"
+                android:layout_marginTop="16dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Ya eres miembro? Login"
-                android:id="@+id/link_signup"
+                android:id="@+id/link_login"
                 android:layout_marginTop="24dp"
                 android:gravity="center"
                 android:textSize="18dp" />
 
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>
