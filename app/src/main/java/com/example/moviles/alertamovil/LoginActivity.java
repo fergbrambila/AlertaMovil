@@ -58,6 +58,8 @@ public class LoginActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     public void onClick(View v) {
                         login();
+                        Intent intent = new Intent("com.example.moviles.alertamovil.MainActivity");
+                        startActivity(intent);
                     }
                 }
         );
