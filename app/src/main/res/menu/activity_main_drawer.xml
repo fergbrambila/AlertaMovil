@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Act_Inicio" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item android:id="@+id/Act_Reportes" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Reportes" />
+        <item android:id="@+id/Act_Mios" android:icon="@android:drawable/ic_menu_share"
+            android:title="Mis Reportes" />
+        <item android:id="@+id/Act_Seguidos" android:icon="@android:drawable/ic_menu_send"
+            android:title="Reportes En Seguimiento" />
+        <item android:id="@+id/Act_Emergencias" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Numeros De Emergencia" />
+        <item android:id="@+id/Act_Ayuda" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Ayuda" />
+        <item android:id="@+id/Act_Somos" android:icon="@android:drawable/ic_menu_manage"
+            android:title="¿Qienes Somos?" />
+        <item android:id="@+id/Act_Donar" android:icon="@android:drawable/ic_menu_send"
+            android:title="Donar" />
+        <item android:id="@+id/Act_Cerrar" android:icon="@android:drawable/ic_menu_send"
+            android:title="Cerrar Cesión" />
+    </group>
+
+</menu>

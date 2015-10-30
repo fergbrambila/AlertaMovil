@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donar"
+    android:id="@+id/lay_donar">
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Donar"
+        android:id="@+id/Tv_Donar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="¿ Te gusta la app y te es útil ? Te estaríamos agradecidos si nos pudieras cooperar con alguna donación."
+        android:id="@+id/Tv_Donar2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

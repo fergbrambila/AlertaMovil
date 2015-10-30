@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Somos"
+    android:id="@+id/lay_somos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="¿Quienes somos?"
+        android:id="@+id/Tv_Somos"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Somos un grupo de estudiantes de distintas universidades unidos por un sólo fin: Ayudar a que las personas se sientan más seguras y que entre todos combatamos la delincuencia entre otras. Protegamosnos entre todos, y viviermos más tranquilos."
+        android:id="@+id/textView2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.moviles.alertamovil;
+package com.inicio.thexcrack10.inicio;
 
 import org.junit.Test;
 

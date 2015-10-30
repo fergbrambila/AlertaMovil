@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.moviles.alertamovil" >
+    package="com.inicio.thexcrack10.inicio" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AlertaMovil" >
-        <activity android:name=".LoginActivity" >
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignupActivity" >
-            <intent-filter>
-                <action android:name="com.example.moviles.alertamovil.SignupActivity" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+        <activity
+            android:name=".Emergencias">
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-            <intent-filter>
-                <action android:name="com.example.moviles.alertamovil.MainActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:name=".Ayuda">
         </activity>
+        <activity
+            android:name=".Cerrar">
+        </activity>
+        <activity
+            android:name=".Donar">
+        </activity>
+        <activity
+            android:name=".Filtrar">
+        </activity>
+        <activity
+            android:name=".Mios">
+        </activity>
+        <activity
+            android:name=".Reportes">
+        </activity>
+        <activity
+            android:name=".Seguidos">
+        </activity>
+        <activity
+            android:name=".Somos">
+        </activity>
+
     </application>
 
 </manifest>
